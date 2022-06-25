@@ -1,0 +1,113 @@
+/***********************************
+* Responsive media queries code *
+************************************/
+/* Most of the Mobile Phone Code */
+@media ( min-width: 320px) and (max-width: 480px) {
+/* code start */
+.header-section .navbar-toggler {
+  font-size: 18px;
+}
+.banner-part h1 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.banner-part p {
+  font-size: 14px;
+  line-height: 22px;
+}
+.banner-part .btn-group .btn-light, .banner-part .btn-group .btn-danger {
+  font-size: 12px;
+  padding: 8px 20px;
+}
+.stories-section h1 {
+  font-size: 24px;
+  line-height: 34px;
+}
+.swiper-slide p {
+  font-size: 12px;
+  line-height: 20px;
+}
+.swiper-slide h5 {
+  font-size: 14px;
+  line-height: 24px;
+}
+.contact-section h3 {
+  font-size: 22px;
+  line-height: 32px;
+}
+.contact-section h4 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.form-control{
+	font-size: 12px;
+}
+.contact-section p {
+  font-size: 12px;
+  line-height: 18px;
+}
+.footer-section p {
+  font-size: 12px;
+}
+/* code end */
+}
+/* Most of the Mobile Phone and low-resolution Tablet Code */
+@media ( min-width: 481px) and (max-width: 767px) {
+/* code start */
+.header-section .navbar-toggler {
+  font-size: 18px;
+}
+.banner-part h1 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.banner-part p {
+  font-size: 14px;
+  line-height: 22px;
+}
+.banner-part .btn-group .btn-light, .banner-part .btn-group .btn-danger {
+  font-size: 12px;
+  padding: 8px 20px;
+}
+.stories-section h1 {
+  font-size: 24px;
+  line-height: 34px;
+}
+.swiper-slide p {
+  font-size: 12px;
+  line-height: 20px;
+}
+.swiper-slide h5 {
+  font-size: 14px;
+  line-height: 24px;
+}
+.contact-section h3 {
+  font-size: 22px;
+  line-height: 32px;
+}
+.contact-section h4 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.form-control{
+	font-size: 12px;
+}
+.contact-section p {
+  font-size: 12px;
+  line-height: 18px;
+}
+.footer-section p {
+  font-size: 12px;
+}
+/* code end */
+}
+/* Most of the Tablet Phone and mini notebook Code */
+@media ( min-width: 768px) and (max-width: 1024px) {
+/* code start */
+.stories-section p {
+  font-size: 14px;
+  line-height: 24px;
+  padding-right: 20px;
+}
+/* code end */
+}
